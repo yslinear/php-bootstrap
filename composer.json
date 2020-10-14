@@ -1,16 +1,18 @@
 {
     "name": "esangtek/php-bootstrap",
+    "homepage": "https://github.com/esangtek/php-bootstrap",
     "license": "MIT",
     "authors": [{
         "name": "oscar",
         "email": "oscar@des13.com"
     }],
     "require": {
+        "php": ">=5.2",
         "smarty/smarty": "~3.1"
     },
     "autoload": {
-        "psr-0": {
-            "PHPbootstrap": "src/"
+        "psr-4": {
+            "PHPbootstrap\\": "src/PHPbootstrap"
         }
     }
 }

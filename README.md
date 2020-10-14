@@ -6,7 +6,11 @@
 
 ## Setup
 
-Include Bootstrap 4 by yourself.
+Include Bootstrap 4 by yourself first.
+
+```bash
+composer require esangtek/php-bootstrap
+```
 
 ## Usage
 
@@ -56,6 +60,7 @@ $bsCarousel->display();
 ## Example
 
 ```php
+<?php
 require_once __DIR__ . '/../vendor/autoload.php';
 
 use PHPbootstrap\Carousel;

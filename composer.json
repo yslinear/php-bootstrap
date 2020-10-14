@@ -1,0 +1,16 @@
+{
+    "name": "esangtek/php-bootstrap",
+    "license": "MIT",
+    "authors": [{
+        "name": "oscar",
+        "email": "oscar@des13.com"
+    }],
+    "require": {
+        "smarty/smarty": "~3.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "PHPbootstrap": "src/"
+        }
+    }
+}
